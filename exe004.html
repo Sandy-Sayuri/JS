@@ -1,3 +1,7 @@
+<!--
+    ## IMPORTANTE ##
+    esse material é feito com base no canal curso em vidio no youtube
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +17,15 @@
 <body>
     <script>
         var nome = window.prompt("Qual é o seu nome?")
-        document.write(`Olá, ${nome}!\n Seu nome tem ${nome.length} letras.`)
+        document.write(`Olá, <strong>${nome}</strong>!<br/> Seu nome tem ${nome.length} letras.<br/>`)
         //document.write escreve na tela e var.length comta o tento da letras tem a var
+        //strong é pata deixar em negrito
+        //br é quebre para a linha de baixo 
+        document.write(`Seu nome em maiúsculas é ${nome.toLocaleUpperCase()}<br/>`)
+        //toLocaleUpperCase() esse comando deixa o noe em maiusculas(ótimo para usar como controle de erros ) 
+        //lembrete: Use esse simbulo `` toda vez que for usar o ${} pq se n ele n funciona
+        document.write(`Seu nome em letras minusculas é ${nome.toLocaleLowerCase()}`)
+        //toLocaleLowerCase() serve para escrever em letras minusculas (ótimo para usar como controle de erros )
         </script>
 </body>
 </html>
