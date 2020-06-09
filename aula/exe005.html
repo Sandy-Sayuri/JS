@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciando estudos com DOM</title>
+</head>
+<style>
+    body{
+        background:rgb(247, 142, 142);
+        color:black;
+        font: normal 20pt Arial;
+    }
+</style>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong>em JavaScript</p>
+    <div>clique em mim</div>
+    <script>
+        var p1= window.document.getElementsByName('p')[0]
+        //getElementsByName('p') você pega o nome que está dentro dos <> e coloca dentro da variavel
+        //o que está entre [] é para caso tenha mais que um ('x') localisar o x existente
+        window.document.write('Está escrito assim'+p1.innerText)
+        //p1.innerText é para escrever na tela
+        p1.style.color="blue"
+        //o paragrafo p1 muda para a cor  escolhida
+        document.write(p1.innerHTML)
+        //p1.innerHTML'copia tudo que tem na linha tanto o HTML quanto o que esta escrito nela 
+    </script>
+</body>
+</html>
