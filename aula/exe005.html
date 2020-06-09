@@ -14,9 +14,11 @@
 </style>
 <body>
     <h1>Iniciando estudos DOM</h1>
+    <!--Document Object Model-->
     <p>aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong>em JavaScript</p>
-    <div>clique em mim</div>
+    <div id = "msg">clique em mim</div>
+    <!-- aqui criamos uma variavel chamada id-->
     <script>
         var p1= window.document.getElementsByName('p')[0]
         //getElementsByName('p') você pega o nome que está dentro dos <> e coloca dentro da variavel
@@ -27,6 +29,9 @@
         //o paragrafo p1 muda para a cor  escolhida
         document.write(p1.innerHTML)
         //p1.innerHTML'copia tudo que tem na linha tanto o HTML quanto o que esta escrito nela 
+        var d = window.document.getElementById('msg')
+        d.innerText="Estou aguardando..."
+        //modifica o texto
     </script>
 </body>
 </html>
