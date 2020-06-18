@@ -1,0 +1,9 @@
+    body{
+        background-color: rgba(0, 0, 0, 0.808);
+        color: blanchedalmond;
+        text-align: center;
+    }
+    button{
+        width: 200px;
+        height: 60px; 
+    }
