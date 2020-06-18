@@ -1,13 +1,13 @@
 body{
-    background-color: rgba(0, 0, 0, 0.548);
-    color: azure;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: blanchedalmond;
     text-align: center;
 }
 button{
     width: 150px;
     height: 30px; 
 }
-div#tes{
+div#res{
     text-align: left;
     font-size: 15px;
 }
