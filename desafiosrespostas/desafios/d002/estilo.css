@@ -2,6 +2,8 @@ button{
     width: 200px;
     height: 60px; 
 }
-.popover.bottom .arrow:after {
-    border-bottom-color: tomato;
+body{
+    background-color: rgba(0, 0, 0, 0.774);
+    color:rgba(245, 245, 245, 0.918);
+    text-align: center;
 }
