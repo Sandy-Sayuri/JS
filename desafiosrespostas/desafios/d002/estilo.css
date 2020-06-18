@@ -1,0 +1,7 @@
+button{
+    width: 200px;
+    height: 60px; 
+}
+.popover.bottom .arrow:after {
+    border-bottom-color: tomato;
+}
