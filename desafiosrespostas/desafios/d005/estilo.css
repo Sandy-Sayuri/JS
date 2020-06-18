@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: azure;
+    text-align: center;
+}
+button{
+    width: 150px;
+    height: 30px; 
+}
+div{
+    text-align: left;
+    font-size: 15px;
+}
