@@ -1,0 +1,12 @@
+body{
+    background-color: rgba(0, 0, 0, 0.664);
+    color: whitesmoke;
+    text-align:center;
+}
+button{
+    width: 150px;
+    height: 30px; 
+}
+div#res{
+    text-align: left;
+}
