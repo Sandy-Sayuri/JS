@@ -9,5 +9,5 @@
     res.innerHTML=`<h1><strong> Calculo do Δ </strong></h1>`
     res.innerHTML+=`A equação atual é ${A}x2+${B}x+${C}=0<br>`
     res.innerHTML+=`O cálculo realizado será Δ=${B}2-4.${A}.${C}<br>`
-    res.innerHTML+=`O valor calculado foi Δ=${B*B-4*A*C}<br>`
+    res.innerHTML+=`<p>O valor calculado foi <p1><strong>Δ=${B*B-4*A*C}</strong></p1></p>`
   }

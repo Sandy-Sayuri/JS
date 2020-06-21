@@ -7,10 +7,12 @@ button{
     width: 150px;
     height: 30px;
 }
-div#res{
-    text-align: left;
-}
+
 p1{
-background-color:rgba(167, 206, 250, 0.623);
-color: black;
+    background-color:rgba(4, 250, 4, 0.925);
+    color:black;
+}
+p2{
+    background-color: rgb(255, 29, 29);
+    color: black;
 }
