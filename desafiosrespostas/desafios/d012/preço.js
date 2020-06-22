@@ -5,10 +5,13 @@ function Verificar(){
     let atu=Number.parseFloat(atual)
     xx.innerHTML=""
     res.innerHTML=`<h1> Analisando os valores informados</h1>`
-    res.innerHTML+=`O produto custava R$${ant} e agora custa R$${atu}`
+    res.innerHTML+=`O produto custava R$${ant} e agora custa R$${atu}<br>`
     if(ant>atu){
-        res.innerHTML+=`Hoje o produto está caro`
-        res.innerHTML+=`O preço subiu R$ ${ant-atu} em relação ao preço anterior`
-        res.innerHTML+=`Uma variação de ${(atu*100)/ant} para cima`
+        res.innerHTML+=`Hoje o produto está caro<br>`
+        res.innerHTML+=`O preço subiu R$ ${ant-atu} em relação ao preço anterior<br>`
+        res.innerHTML+=`Uma variação de ${(atu*100)/ant} % para cima<br>`
+    }
+    else{
+        res.innerHTML+=`o produto custava`
     }
 }
